@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media (min-width: 1300px){
+    body
+    {
+        background-color: red;
+        height: 3808px;
+        width: 1440;
+    }
+
+}
+
+@media (max-width: 1300px){
+    body
+    {
+        background-color: blue;
+        height: 4898px;
+        width: 768px;
+    }
+
+}
+
+@media (max-width: 500px){
+    body{
+    background-color: salmon;
+    height: 5205px;
+    width: 375px;
+    }
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-image: url(Figures/FundoTopo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+
+}
+
+    .text-preset1{
+        font-size: 46px;
+        line-height: 125%;
+        letter-spacing: -0.75px;
+    }
+
+    .text-preset2{
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: -0.75px;
+    }
+
+    .text-preset3{
+        font-size: 36px;
+        line-height: 125%;
+        letter-spacing: -0.6px;
+    }
+
+    .text-preset4{
+        font-size: 32px;
+        line-height: 125%;
+        letter-spacing: -0.5px;
+    }
+
+    .text-preset5{
+        font-size: 28px;
+        line-height: 125%;
+        letter-spacing: -0.5px;
+    }
+    .text-preset6{
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: -0.4px;
+    }
+
+    .text-preset7-SemiBold{
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+    }
+
+    .text-preset7-Regular{
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+
+    .text-preset8{
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+
+    }
+    
+
+
+.Botao {
+    padding: 10px;
+    margin: 10px;
+    width: 318px;
+    height: 56px;
+    border-radius: 28px;
+    font-size: 20px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    border: none;
+
+}
+
+.btn-titulo{
+    margin: 56px;
+}
+
+.IOS {
+    background-color: #26BBA4;
+}
+
+.IOS:hover {
+    background-color: #5DCCBB;
+}
+
+.MAC {
+    background-color: #6174FF;
+}
+
+.MAC:hover {
+    background-color: #8897FF;
+}
+
+
+.TituloDownload {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    margin: 64px;
+}
+
+.TituloDownload img{
+    letter-spacing: 0.5px;
+    margin: 56px;
+}
+
+
+.Beneficios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 800px;
+    text-align: center;
+    margin: 64px;
+}
+
+
+
+.Acesso{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 220px;
+    text-align: center;
+    margin: 64px;
+}
+
+
+.Ferramentas{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 400px;
+    text-align: center;
+    margin: 64px;
+
+}
+
+.Parceiros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 16opx;
+    height: 100px;
+    text-align: center;
+    margin: 64px;
+}
+
+.logotipos{
+    width: 160px;
+    height: 65px;
+    padding: 10px;
+}
+
+.Download{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+    margin: 64px;
+}
