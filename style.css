@@ -180,8 +180,28 @@
         width: 227px;
     }
 
+    .TopicosDistribuicao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Topicos{
+        width: 400px;
+        padding-bottom: 40px;
+    }
+
     .Parceiros {
         height: 400px;
+    }
+
+    .InfosFerramentas{
+        width: 100vw;
+    }
+
+    .argumentos{
+        width: 400px;
+        padding-bottom: 40px;
     }
 
 }
@@ -233,6 +253,15 @@
 
     .InfosDownload{
         width: 90vw;
+    }
+
+    .InfosFerramentas{
+        width: 100vw;
+    }
+
+    .argumentos{
+        width: 400px;
+        padding-bottom: 40px;
     }
 }
 
