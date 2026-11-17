@@ -48,6 +48,7 @@
         margin: 100px;
     }
 
+
     .TopicosImagem {
         width: 100vw;
         display: flex;
@@ -58,12 +59,13 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: top;
         flex-wrap: wrap;
     }
 
     .Topicos {
         text-align: start;
-        margin: 40px;
+        margin-top: 80px;
         width: 400px;
     }
 
@@ -72,6 +74,10 @@
         display: flex;
         flex-direction: column;
         margin: 100px;
+    }
+
+    .InfosAcesso p{
+        width: 500px;
     }
 
     .InfosFerramentas {
@@ -105,6 +111,10 @@
         height: 200px;
     }
 
+    .logotipos{
+        margin-right: 60px;
+    }
+
     .Download {
         height: 200px;
     }
@@ -119,11 +129,16 @@
     .links {
         display: flex;
         flex-direction: row;
-        align-items: start;
+        align-items: top;
         justify-content: space-evenly;
         flex-wrap: wrap;
         height: 130px;
         width: 600px;
+    }
+
+    footer a{
+        width: 150px;
+    text-align: start;
     }
 
     footer {
@@ -389,7 +404,6 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
     height: 600px;
     text-align: center;
     margin: 64px;
@@ -479,6 +493,7 @@ footer a {
     text-decoration: none;
     color: #4C545C;
     margin: 10px;
+    
 }
 
 .redes {
