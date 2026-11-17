@@ -1,0 +1,94 @@
+/* Configurações Globais */
+* {
+    margin: 0 auto;
+    /* Elemento centralizado */
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+body {
+    /* Garantir que todo o fluxo do site esteja centralizado na página */
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/desktop/background-main.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+
+}
+
+/* Quais tamanho e estilos que não mudam */
+.button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    border: none;
+    padding: 16px 8px;
+    width: 344px;
+    border-radius: 16px;
+    margin: 12px auto;
+    color: white;
+    box-shadow: 0px -3px 0px 0px #00000027 inset;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.btnios {
+    background: var(--colors-green-500, #26BBA4);
+    border-bottom: 3px solid #1d907f;
+}
+
+.btnmac {
+    background: var(--colors-blue-500, #6174FF);
+    border-bottom: 3px solid hsl(233, 100%, 59%);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--colors-gray-700, #4C545C);
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+p {
+    color: var(--colors-gray-500, #9EABB2);
+    padding-bottom:64px ;
+}
+
+
+/* O que é especifico do mobile */
+@media (max-width:600px) {}
+
+/* O que é especifico do tablet */
+@media (max-width:1024px) {
+    .button-group {
+        display: flex;
+
+    }
+}
+
+/* O que é especifico do desktop */
+@media (min-width:1024px) {
+    main {
+        height: 70vh;
+    }
+
+
+    .button-group {
+        display: flex;
+
+    }
+}
