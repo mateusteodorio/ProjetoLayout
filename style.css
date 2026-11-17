@@ -1,33 +1,169 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
-@media (min-width: 1300px){
-    body
-    {
-        
+@media (min-width: 1300px) {
+    body {
+
+
         height: 2808px;
         width: 1440;
     }
 
+    h1 {
+        font-size: 46px
+    }
+
+     h2{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+
+    .DownloadTitulo {
+        width: 100vw;
+    }
+
+    .InfosBeneficio {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        margin: 100px;
+    }
+
+    .TopicosImagem {
+        width: 100vw;
+        display: flex;
+    }
+
+    .TopicosDistribuicao {
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Topicos {
+        text-align: start;
+        margin: 40px;
+        width: 400px;
+    }
+
+
+    .InfosAcesso {
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+    }
+
+    .InfosFerramentas {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .ArgumentosDistribuicao {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .argumentos {
+        width: 350px;
+        margin: 50px;
+    }
+
+    .InfosDowload {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin: 50px;
+    }
+
+    .Parceiros {
+        height: 200px;
+    }
+
+    .Download {
+        height: 200px;
+    }
+
+    .redes {
+        margin: 20px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 130px;
+        width: 600px;
+    }
+
+    footer {
+        box-sizing: border-box;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 150px;
+        background-color: #F5F7F7;
+
+    }
+
+
 }
 
-@media (max-width: 1300px){
-    body
-    {
-        
+@media (max-width: 1300px) {
+    body {
+
         height: 4898px;
-        width: 768px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    footer {
+        width: 1300px;
     }
 
 }
 
-@media (max-width: 500px){
-    body{
-    
-    height: 5205px;
-    width: 375px;
+@media (max-width: 500px) {
+    body {
+
+
+        height: 5205px;
+
+    }
+
+    footer {
+        width: 500px;
     }
 }
 
@@ -45,70 +181,71 @@ body {
 
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 80vw;
 
 }
 
-    .text-preset1{
-        font-size: 46px;
-        line-height: 125%;
-        letter-spacing: -0.75px;
-    }
+.text-preset1 {
+    font-size: 46px;
+    line-height: 125%;
+    letter-spacing: -0.75px;
+}
 
-    .text-preset2{
-        font-size: 40px;
-        line-height: 125%;
-        letter-spacing: -0.75px;
-    }
+.text-preset2 {
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: -0.75px;
+}
 
-    .text-preset3{
-        font-size: 36px;
-        line-height: 125%;
-        letter-spacing: -0.6px;
-    }
+.text-preset3 {
+    font-size: 36px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+}
 
-    .text-preset4{
-        font-size: 32px;
-        line-height: 125%;
-        letter-spacing: -0.5px;
-    }
+.text-preset4 {
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+}
 
-    .text-preset5{
-        font-size: 28px;
-        line-height: 125%;
-        letter-spacing: -0.5px;
-    }
-    .text-preset6{
-        font-size: 24px;
-        line-height: 125%;
-        letter-spacing: -0.4px;
-    }
+.text-preset5 {
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+}
 
-    .text-preset7-SemiBold{
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: 0.5px;
-    }
+.text-preset6 {
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: -0.4px;
+}
 
-    .text-preset7-Regular{
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: 0.15px;
-        font-weight: 400;
-    }
+.text-preset7-SemiBold {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
 
-    .text-preset8{
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.15px;
-        font-weight: 400;
+.text-preset7-Regular {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    font-weight: 400;
+}
 
-    }
-    
+.text-preset8 {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    font-weight: 400;
+
+}
+
 
 
 .Botao {
@@ -126,7 +263,7 @@ main{
 
 }
 
-.btn-titulo{
+.btn-titulo {
     margin: 56px;
 }
 
@@ -157,13 +294,13 @@ main{
     margin: 64px;
 }
 
-.TituloDownload img{
+.TituloDownload img {
     letter-spacing: 0.5px;
     margin: 56px;
 }
 
 
-.Beneficios{
+.Beneficios {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -175,18 +312,17 @@ main{
 
 
 
-.Acesso{
+.Acesso {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
     height: 520px;
     text-align: center;
     margin: 64px;
 }
 
 
-.Ferramentas{
+.Ferramentas {
 
     display: flex;
     justify-content: center;
@@ -198,7 +334,7 @@ main{
 
 }
 
-.Parceiros{
+.Parceiros {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -209,13 +345,13 @@ main{
     margin: 64px;
 }
 
-.logotipos{
+.logotipos {
     width: 160px;
     height: 65px;
     padding: 10px;
 }
 
-.Download{
+.Download {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -226,33 +362,34 @@ main{
 }
 
 
-footer{
-    box-sizing: border-box;
+footer {
+
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 100vw;
+    background-color: #F5F7F7;
 
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: black;
     margin: 10px;
 }
 
-.infos{
+.redes {
+    margin: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.redes{
-    margin: 20px;
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
 }
